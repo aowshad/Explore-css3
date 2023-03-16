@@ -1,0 +1,25 @@
+.field{
+background-color: aquamarine;
+}
+.field:hover .bat{
+    transform: rotate(-70deg);
+    transform-origin: top right;
+}
+.bat{
+    padding: 1%;
+    transition: transform .2s ease-out ;
+}
+.ball{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    left:635px  
+    
+}
+.field:hover .ball{
+    transform: translate(450px,-270px);
+    transition: transform 1s ease-out .2s;
+
+}
