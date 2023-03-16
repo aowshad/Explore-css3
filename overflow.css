@@ -10,3 +10,13 @@
     border: 5px solid rgb(255, 239, 22);
     overflow-y: scroll;
 }
+.mini-mini{
+    width: 100px;
+    border: 2px solid indianred;
+    overflow: hidden;
+}
+.short-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
